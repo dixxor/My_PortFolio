@@ -7,16 +7,16 @@ const projects = [
     description: "Car price prediction using ML and image analysis for accurate market valuations.",
     image: "https://images.unsplash.com/photo-1555949963-aa79dcee981c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=600&h=300",
     alt: "Modern car dashboard with digital interface",
-    tech: ["Python", "TensorFlow", "OpenCV"],
-    github: "https://github.com/dixxor/Final_project.git",
+    tech: ["React", "Node.js", "Python", "Random Forest", "InceptionV3", "GPT API", "MongoDB"],
+    github: "https://github.com/dixxor/DrivePrice_FinalYear_project.git",
     demo: "#"
   },
   {
-    title: "News Aggregator System",
-    description: "Personalized global news platform with real-time scraping and intelligent categorization.",
+    title: " Green Supermarket – Java-Based E-commerce Platform",
+    description: "Collaboratively built a web-based supermarket management system supporting online shopping.",
     image: "https://images.unsplash.com/photo-1504711434969-e33886168f5c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=600&h=300",
-    alt: "Modern newsroom with multiple screens displaying news",
-    tech: ["React", "Node.js", "MongoDB"],
+    alt: "Modern supermarket with multiple screens displaying platform",
+    tech: ["Java", "Swing", "JSP", "Servlets", "MySQL", "PayPal", "API"],
     github: "#",
     demo: "#"
   },
@@ -25,7 +25,7 @@ const projects = [
     description: "Desktop app to preview 3D furniture in real rooms using augmented reality.",
     image: "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=600&h=300",
     alt: "Modern minimalist room interior with furniture",
-    tech: ["Python", "OpenGL", "OpenCV"],
+    tech: ["React", "React Three Fiber", "JavaScript" , "3D Modeling"],
     github: "https://github.com/dixxor/HCI_project.git",
     demo: "#"
   },
@@ -43,7 +43,7 @@ const projects = [
     description: "Mobile platform that connects homeless pets with potential adopters through smart matching.",
     image: "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=600&h=300",
     alt: "Adorable pets with digital interface overlay",
-    tech: ["React Native", "Express", "MongoDB"],
+    tech: ["React Native", "Firebase", "MongoDB"],
     github: "https://github.com/dixxor/MAD_55.git",
     demo: "#"
   }

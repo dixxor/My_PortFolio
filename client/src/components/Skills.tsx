@@ -3,6 +3,7 @@ import { motion } from "framer-motion";
 const skills = [
   { name: "React", level: 90, icon: "⚛️", category: "Frontend" },
   { name: "Node.js", level: 85, icon: "🟢", category: "Backend" },
+  { name: "Dart", level: 85, icon: "🎯", category: "Mobile" },
   { name: "MongoDB", level: 80, icon: "🍃", category: "Database" },
   { name: "Python", level: 85, icon: "🐍", category: "Language" },
   { name: "TensorFlow", level: 75, icon: "🧠", category: "AI/ML" },

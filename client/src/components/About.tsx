@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 
 const techStack = [
-  "React", "Node.js", "Express.js", "MongoDB", "Tailwind CSS", 
+  "React", "Node.js", "Dart", "Express.js", "MongoDB", "Tailwind CSS", 
   "Python", "TensorFlow", "MATLAB", "Git", "AWS S3"
 ];
 
