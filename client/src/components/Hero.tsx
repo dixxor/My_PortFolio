@@ -54,7 +54,7 @@ export default function Hero() {
           className="mb-6 mt-6"
         >
           <Avatar className="w-56 h-56 mx-auto shadow-2xl border-4 border-white/20">
-            <AvatarImage src={`${import.meta.env.BASE_URL}me.jpg`} alt="Dinoda Rathnayake photo" className="object-cover" />
+            <AvatarImage src={"/me.jpg"} alt="Dinoda Rathnayake photo" className="object-cover" />
             <AvatarFallback>DR</AvatarFallback>
           </Avatar>
         </motion.div>
