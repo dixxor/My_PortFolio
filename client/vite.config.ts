@@ -10,4 +10,5 @@ export default defineConfig({
       "@": path.resolve(__dirname, "src"),
     },
   },
+  // No custom build.outDir: output will go to client/dist by default
 });
