@@ -1,0 +1,151 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: 0 0% 0%; /* #000000 */
+  --foreground: 0 0% 100%; /* #FFFFFF */
+  --muted: 0 0% 10%; /* #1A1A1A */
+  --muted-foreground: 0 0% 65%; /* #A5A5A5 */
+  --popover: 0 0% 5%; /* #0D0D0D */
+  --popover-foreground: 0 0% 100%; /* #FFFFFF */
+  --card: 0 0% 5%; /* #0D0D0D */
+  --card-foreground: 0 0% 100%; /* #FFFFFF */
+  --border: 0 0% 15%; /* #262626 */
+  --input: 0 0% 15%; /* #262626 */
+  --primary: 0 0% 100%; /* #FFFFFF */
+  --primary-foreground: 0 0% 0%; /* #000000 */
+  --secondary: 0 0% 10%; /* #1A1A1A */
+  --secondary-foreground: 0 0% 100%; /* #FFFFFF */
+  --accent: 0 0% 15%; /* #262626 */
+  --accent-foreground: 0 0% 100%; /* #FFFFFF */
+  --destructive: 0 84% 60%; /* #EF4444 */
+  --destructive-foreground: 0 0% 98%; /* #FAFAFA */
+  --ring: 0 0% 100%; /* #FFFFFF */
+  --radius: 0.75rem;
+}
+
+@layer base {
+  * {
+    @apply border-border;
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply font-sans antialiased bg-background text-foreground;
+    font-family: 'Inter', sans-serif;
+  }
+
+  .font-mono {
+    font-family: 'JetBrains Mono', monospace;
+  }
+}
+
+@layer components {
+  .glassmorphism {
+    @apply bg-white/10 backdrop-blur-xl border border-white/20;
+  }
+
+  .glassmorphism-dark {
+    @apply bg-black/30 backdrop-blur-xl border border-white/10;
+  }
+
+  .text-gradient {
+    background: linear-gradient(135deg, #ffffff 0%, #9ca3af 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+
+  .hero-bg {
+    background: radial-gradient(circle at 20% 50%, rgba(255,255,255,0.1) 0%, transparent 50%),
+               radial-gradient(circle at 80% 20%, rgba(255,255,255,0.05) 0%, transparent 50%),
+               radial-gradient(circle at 40% 80%, rgba(255,255,255,0.08) 0%, transparent 50%),
+               linear-gradient(135deg, rgba(255,255,255,0.02) 0%, rgba(0,0,0,0.1) 100%);
+  }
+
+  .section-bg {
+    background: linear-gradient(180deg, rgba(0,0,0,0.9) 0%, rgba(10,10,10,0.95) 50%, rgba(0,0,0,0.9) 100%);
+  }
+
+  .particle {
+    @apply absolute w-0.5 h-0.5 bg-white/50 rounded-full;
+  }
+}
+
+@layer utilities {
+  .animate-float {
+    animation: float 6s ease-in-out infinite;
+  }
+
+  .animate-glow {
+    animation: glow 2s ease-in-out infinite alternate;
+  }
+
+  .animate-pulse-slow {
+    animation: pulse-slow 3s ease-in-out infinite;
+  }
+
+  .animate-slide-up {
+    animation: slideUp 0.8s ease-out forwards;
+  }
+
+  .animate-fade-in {
+    animation: fadeIn 1s ease-out forwards;
+  }
+
+  .animate-scale-in {
+    animation: scaleIn 0.6s ease-out forwards;
+  }
+
+  .animate-rotate-slow {
+    animation: rotateSlow 20s linear infinite;
+  }
+
+  @keyframes float {
+    0%, 100% { transform: translateY(0px); }
+    50% { transform: translateY(-20px); }
+  }
+
+  @keyframes glow {
+    from { box-shadow: 0 0 20px rgba(255,255,255,0.1); }
+    to { box-shadow: 0 0 40px rgba(255,255,255,0.2); }
+  }
+
+  @keyframes pulse-slow {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0.7; }
+  }
+
+  @keyframes slideUp {
+    from { 
+      opacity: 0;
+      transform: translateY(30px);
+    }
+    to { 
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  @keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+
+  @keyframes scaleIn {
+    from { 
+      opacity: 0;
+      transform: scale(0.9);
+    }
+    to { 
+      opacity: 1;
+      transform: scale(1);
+    }
+  }
+
+  @keyframes rotateSlow {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+  }
+}

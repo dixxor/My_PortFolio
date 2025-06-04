@@ -1,0 +1,76 @@
+Create a modern, beautifully animated portfolio website using React and Tailwind CSS. The color theme should be strictly monochrome: black, dark gray, light gray, and white. Use smooth transitions, Framer Motion animations, and soft shadows. The layout should be minimalist, elegant, and mobile-responsive.
+
+My portfolio website should include the following sections:
+
+Hero Section:
+
+Full-screen intro with my name, title (e.g., "Full Stack Developer | UI/UX Enthusiast"), and a short tagline.
+
+Animated background (e.g., gradient glow or particle effect) in grayscale.
+
+Framer Motion entrance animations for text.
+
+About Me Section:
+
+Short bio with my image (grayscale image with subtle hover effect).
+
+Include a list of technologies I work with.
+
+Smooth fade-in on scroll.
+
+Projects Section:
+
+Cards or tiles for each project (animated on hover).
+
+Each project includes image, title, short description, tech stack, and links to GitHub/live site.
+
+Animate each card on scroll using Framer Motion.
+
+Skills Section:
+
+Beautiful grid layout or animated progress bars.
+
+Hover effect on each skill tile with grayscale glow.
+
+Contact Section:
+
+Clean contact form (name, email, message).
+
+Include social icons (GitHub, LinkedIn, Email) in grayscale with hover interaction.
+
+Subtle fade-in animation.
+
+Footer:
+
+Simple black footer with copyright.
+
+My Personal Details:
+Name: Dinoda Rathnayake
+
+Title: Final Year Software Engineering Student | MERN Stack & AI Developer
+
+Short Bio: Passionate developer with strong experience in full-stack web development, machine learning, and AI. Always excited to build innovative projects with clean and beautiful user interfaces.
+
+Tech Stack: React, Node.js, Express.js, MongoDB, Tailwind CSS, Python, TensorFlow, MATLAB, Git, AWS S3
+
+Projects:
+
+Fair Vehicle Price Prediction System – Car price prediction using ML and image analysis.
+
+News Aggregator System – Personalized global news platform with real-time scraping.
+
+Furniture Visualizer – Desktop app to preview 3D furniture in real rooms.
+
+BookNest – Online book renting and recommendation system.
+
+petpal -  mobile platform that connects homeless pets with potential adopters.
+
+Email: dinoda12345@gmail.com
+
+GitHub: https://github.com/dixxor
+
+LinkedIn: www.linkedin.com/in/dinoda-rathnayake
+
+Location: moratuwa, Sri Lanka
+
+Use smooth grayscale gradients, glassmorphism or frosted backgrounds, and elegant Framer Motion transitions throughout the site. The site should reflect a futuristic, professional tone while remaining minimal.
