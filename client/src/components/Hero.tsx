@@ -53,7 +53,7 @@ export default function Hero() {
           transition={{ duration: 0.8, delay: 0.1 }}
           className="mb-6 mt-6"
         >
-          <Avatar className="w-40 h-40 sm:w-56 sm:h-56 mx-auto shadow-2xl border-4 border-white/20">
+          <Avatar className="w-32 h-32 sm:w-56 sm:h-56 mx-auto mt-20 sm:mt-12 shadow-2xl border-4 border-white/20">
             <AvatarImage 
               src="https://i.ibb.co/9m2HxTF8/IMG-20250528-WA0030.jpg" 
               alt="Dinoda Rathnayake photo" 
