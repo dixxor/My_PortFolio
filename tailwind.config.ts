@@ -2,8 +2,19 @@ import type { Config } from "tailwindcss";
 
 export default {
   darkMode: ["class"],
-  content: ["./client/index.html", "./client/src/**/*.{js,jsx,ts,tsx}"],
+  content: [
+    "./client/index.html",
+    "./client/src/**/*.{js,jsx,ts,tsx}"
+  ],
   theme: {
+    borderColor: {
+      border: "hsl(var(--border))",
+      white: "#ffffff",
+      "white/10": "rgba(255,255,255,0.1)",
+      "white/20": "rgba(255,255,255,0.2)",
+      "white/30": "rgba(255,255,255,0.3)",
+      "white/50": "rgba(255,255,255,0.5)",
+    },
     extend: {
       borderRadius: {
         lg: "var(--radius)",
@@ -86,5 +97,10 @@ export default {
       },
     },
   },
+  safelist: [
+    'border-border',
+    'border-white',
+    'border-white/20',
+  ],
   plugins: [require("tailwindcss-animate"), require("@tailwindcss/typography")],
 } satisfies Config;
