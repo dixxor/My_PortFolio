@@ -1,0 +1,2 @@
+# Ignore attached_assets folder to prevent deployment errors
+attached_assets/
