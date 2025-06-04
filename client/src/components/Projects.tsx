@@ -5,7 +5,7 @@ const projects = [
   {
     title: "Fair Vehicle Price Prediction",
     description: "Car price prediction using ML and image analysis for accurate market valuations.",
-    image: "https://images.unsplash.com/photo-1555949963-aa79dcee981c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=600&h=300",
+    image: "https://images.unsplash.co/photo-1555949963-aa79dcee981c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=600&h=300",
     alt: "Modern car dashboard with digital interface",
     tech: ["React", "Node.js", "Python", "Random Forest", "InceptionV3", "GPT API", "MongoDB"],
     github: "https://github.com/dixxor/DrivePrice_FinalYear_project.git",
