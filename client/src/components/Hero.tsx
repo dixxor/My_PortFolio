@@ -1,3 +1,4 @@
+
 import { motion } from "framer-motion";
 import { useEffect, useRef } from "react";
 import { ChevronDown } from "lucide-react";
@@ -53,7 +54,7 @@ export default function Hero() {
           transition={{ duration: 0.8, delay: 0.1 }}
           className="mb-6 mt-6"
         >
-          <Avatar className="w-24 h-24 xs:w-28 xs:h-28 sm:w-56 sm:h-56 mx-auto mt-28 sm:mt-12 shadow-2xl border-4 border-white/20"> 
+          <Avatar className="w-24 h-24 xs:w-28 xs:h-28 sm:w-56 sm:h-56 mx-auto mt-28 sm:mt-12 shadow-2xl border-4 border-white/20">
             <AvatarImage 
               src="https://i.ibb.co/9m2HxTF8/IMG-20250528-WA0030.jpg" 
               alt="Dinoda Rathnayake photo" 
